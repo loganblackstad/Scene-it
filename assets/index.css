@@ -1,0 +1,62 @@
+body {
+	background-color: #E8E8E8;
+}
+
+.header h2 {
+	color: #DC4247;
+}
+
+.header p {
+	color: #50524F;
+}
+
+.results {
+	margin-top: 20px;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a {
+	color: #50524F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+p a {
+	text-decoration: none;
+	color: black;
+}
+
+.form-control:active,
+.form-control:focus {
+	outline:none !important;
+  -webkit-appearance:none !important;
+	box-shadow: none !important;
+} 
+
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dislike:hover,
+.like:hover {
+  color: #2EBDD1;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.swell:hover {
+	transform: scale(1.1);
+}
+
+.active {
+  color: #2EBDD1;
+}
